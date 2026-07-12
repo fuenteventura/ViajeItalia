@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es" class="nojs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E2C42">
+<title>Italia en coche · 10–23 sep 2026</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Italia en coche · Guía de viaje 2026">
+<meta property="og:description" content="Road trip 10–23 sep 2026 · 7 bases, mapa de la ruta, reservas, eventos y paradas de camino.">
+<meta property="og:image" content="Portada_Viaje_Italia.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Italia en coche · Guía de viaje 2026">
+<meta name="twitter:description" content="Road trip 10–23 sep 2026 · 7 bases, mapa, reservas y paradas de camino.">
+<meta name="twitter:image" content="Portada_Viaje_Italia.png">
+<script>document.documentElement.className="js";</script>
+<style>
+:root{
+  --ink:#0E2C42; --ink2:#123A57; --sea:#1E6091; --sea2:#2A7DB8; --teal:#1B9AAA;
+  --gold:#D99A45; --gold2:#B9812F; --terra:#B4432E; --olive:#6E7B3D;
+  --paper:#F7F1E4; --paper2:#F2E9D6; --card:#FFFDF8; --line:#E6DCC6;
+  --text:#2B3540; --muted:#77706A;
+  --green:#3F7D3F; --plum:#6E4E9E; --amber:#B5731A; --sienna:#B0762B;
+  --shadow:0 8px 22px rgba(14,44,66,.10);
+  --tri-g:#2E8B57; --tri-r:#C4392C;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--text);
+  font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.serif{font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif}
+h1,h2,h3{font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;color:var(--ink);margin:0;line-height:1.14}
+a{color:var(--sea);text-decoration:none}
+.wrap{max-width:680px;margin:0 auto;padding:0 16px}
+.eyebrow{font:700 11px/1 system-ui;letter-spacing:.16em;text-transform:uppercase;color:var(--sea2)}
+.tri{height:4px;border-radius:4px;background:linear-gradient(90deg,var(--tri-g) 0 33.3%,#fff 33.3% 66.6%,var(--tri-r) 66.6% 100%)}
+
+/* sticky bar */
+.bar{position:sticky;top:0;z-index:30;background:rgba(247,241,228,.92);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:9px;height:50px}
+.bar .dot{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px rgba(217,154,69,.25)}
+.bar b{font:800 14px system-ui;color:var(--ink)}
+.bar span{margin-left:auto;font:600 12px system-ui;color:var(--muted)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(168deg,#0B1F31 0%,#123A57 46%,#1E6285 74%,#CC8E42 140%)}
+.hero .glow{position:absolute;right:-70px;top:-50px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(242,199,120,.5),transparent 62%)}
+.hero .wrap{position:relative;padding:26px 16px 22px}
+.hero .eyebrow{color:#F4D6A6}
+.hero h1{color:#fff;font-size:40px;font-weight:800;letter-spacing:.4px;margin:6px 0 3px}
+.hero h1 em{display:block;font-style:italic;font-weight:500;font-size:23px;color:#EBDABE}
+.hero .tri{width:92px;margin:10px 0 14px}
+
+/* route map */
+.map{position:relative;background:linear-gradient(160deg,#EAF1F4,#F5EEDF);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
+.map .cap{display:flex;align-items:center;gap:8px;padding:10px 12px 4px}
+.map .cap b{font:800 12px system-ui;letter-spacing:.04em;color:var(--ink)}
+.map .cap small{margin-left:auto;font:600 10.5px system-ui;color:var(--muted)}
+.map svg{display:block;width:100%;height:auto}
+.map .hint{padding:0 12px 10px;font:500 11px system-ui;color:var(--muted);text-align:center}
+.pin-num{font:800 12px system-ui;fill:#fff}
+.pin-lb{font:700 9.5px system-ui;fill:#123A57}
+.pin-lb.w{fill:#5a6b52}
+
+/* stats */
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.stat{flex:1 1 auto;min-width:82px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 11px;box-shadow:0 2px 6px rgba(14,44,66,.05)}
+.stat b{display:block;font:800 17px "Palatino Linotype",Georgia,serif;color:var(--ink)}
+.stat small{font:600 10px system-ui;letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
+
+/* section */
+section{margin:28px 0}
+.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.sec-head .ic{flex:0 0 36px;width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:var(--ink);color:#fff}
+.sec-head h2{font-size:22px}
+.sec-head p{margin:2px 0 0;font-size:12px;color:var(--muted)}
+
+/* legend */
+.legend{display:flex;flex-wrap:wrap;gap:7px;margin:-2px 0 14px}
+.legend span{display:inline-flex;align-items:center;gap:5px;font:700 10px system-ui;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 9px}
+.legend i{width:9px;height:9px;border-radius:3px;display:inline-block}
+
+/* appointment tickets */
+.apts{display:flex;flex-direction:column;gap:11px}
+.apt{position:relative;display:flex;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
+.apt .stub{flex:0 0 76px;background:linear-gradient(160deg,var(--ink),var(--sea));color:#fff;padding:12px 8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px}
+.apt .stub .day{font:800 22px "Palatino Linotype",Georgia,serif;line-height:1}
+.apt .stub .mon{font:700 10px system-ui;letter-spacing:.14em;opacity:.9}
+.apt .stub .hr{margin-top:6px;font:800 14px system-ui;background:rgba(255,255,255,.16);border-radius:6px;padding:2px 7px}
+.apt .body{flex:1;padding:11px 13px;border-left:2px dashed var(--line)}
+.apt .body h3{font-size:15px;line-height:1.25}
+.apt .body .loc{font-size:12px;color:var(--muted);margin-top:3px}
+.apt .ref{display:inline-block;margin-top:7px;font:700 11px system-ui;color:var(--sea);background:#EAF2F8;border-radius:6px;padding:3px 9px}
+.apt::before,.apt::after{content:"";position:absolute;left:69px;width:13px;height:13px;background:var(--paper);border-radius:50%}
+.apt::before{top:-6.5px}.apt::after{bottom:-6.5px}
+
+/* journey spine */
+.spine{position:relative;margin:0;padding:2px 0 2px 38px;list-style:none}
+.spine::before{content:"";position:absolute;left:12px;top:12px;bottom:20px;width:3px;border-radius:3px;background:linear-gradient(var(--sea),var(--teal) 45%,var(--gold) 80%,var(--terra))}
+.leg{position:relative;margin:0}
+.leg .drive{padding:9px 0}
+.leg .chip{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font:600 12px system-ui;color:var(--ink);box-shadow:0 2px 6px rgba(14,44,66,.06)}
+.leg .chip svg{flex:0 0 auto;color:var(--sea)}
+.leg.start .chip,.leg.end .chip{background:var(--ink);color:#fff;border-color:var(--ink)}
+.leg.start .chip svg,.leg.end .chip svg{color:#F3D3A0}
+.leg .drive::before{content:"";position:absolute;left:-30px;top:20px;width:9px;height:9px;border-radius:50%;background:var(--paper);border:2px solid var(--sea)}
+
+/* waypoints (de camino) */
+.wps{margin:2px 0 6px;background:#FFFDF7;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;padding:9px 11px}
+.wps .t{display:flex;align-items:center;gap:6px;font:800 10px system-ui;letter-spacing:.08em;text-transform:uppercase;color:var(--gold2);margin-bottom:6px}
+.wp{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-top:1px dashed var(--line)}
+.wp:first-of-type{border-top:0}
+.wp .mk{flex:0 0 auto;margin-top:2px;color:var(--sienna)}
+.wp .tx{flex:1;font-size:12.5px;line-height:1.4}
+.wp .tx b{color:var(--ink)}
+.badge{display:inline-block;font:800 8.5px system-ui;letter-spacing:.04em;border-radius:5px;padding:1px 5px;margin-left:2px;vertical-align:1px}
+.badge.new{color:#fff;background:var(--sienna)}
+.badge.plan{color:var(--muted);background:#EDE6D6}
+
+/* stop cards */
+.stop{position:relative;margin:6px 0 8px;scroll-margin-top:60px}
+.stop::before{content:"";position:absolute;left:-32px;top:22px;width:18px;height:18px;border-radius:50%;background:var(--gold);border:3px solid var(--paper);box-shadow:0 0 0 2px var(--sea);z-index:1}
+.stop.hub::before{background:var(--terra)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.card .top{padding:13px 14px 12px;position:relative}
+.card .top::after{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,var(--tri-g) 0 33.3%,#fff 33.3% 66.6%,var(--tri-r) 66.6% 100%);opacity:.75}
+.stop .kick{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.stop .num{font:800 11px system-ui;color:#fff;background:var(--sea);border-radius:6px;padding:2px 7px}
+.stop.hub .num{background:var(--terra)}
+.stop .dates{font:700 12px system-ui;color:var(--muted)}
+.stop .rico{float:right;margin:-2px -2px 0 8px;color:var(--sea)}
+.stop.hub .rico{color:var(--terra)}
+.stop h3{font-size:20px;margin:6px 0 1px}
+.stop .region{font-size:12px;color:var(--sea2);font-weight:600}
+.lodge{display:flex;align-items:center;gap:10px;margin-top:11px;padding:9px 10px;background:#F4F0E6;border:1px solid var(--line);border-radius:12px}
+.lodge .bi{flex:0 0 auto;color:var(--gold2)}
+.lodge .ln{flex:1;min-width:0}
+.lodge .ln b{font:700 13px system-ui;color:var(--ink);display:block}
+.lodge .ln small{font-size:11px;color:var(--muted)}
+.lodge .pr{text-align:right}
+.lodge .pr b{font:800 15px "Palatino Linotype",Georgia,serif;color:var(--ink)}
+.pill{display:inline-block;font:700 10px system-ui;border-radius:999px;padding:3px 8px;white-space:nowrap}
+.pill.free{color:var(--green);background:#E7F3EB}
+.pill.nr{color:var(--amber);background:#F7EEDD}
+.card .content{padding:5px 14px 14px}
+.item{display:flex;gap:9px;padding:8px 0;border-top:1px solid var(--line)}
+.item:first-child{border-top:0}
+.tag{flex:0 0 auto;align-self:flex-start;font:800 9.5px system-ui;letter-spacing:.05em;border-radius:6px;padding:3px 7px;margin-top:1px}
+.tag.co{color:var(--green);background:#E7F3EB}
+.tag.pr{color:var(--plum);background:#EFEAF7}
+.tag.ab{color:var(--sea);background:#EAF2F8}
+.tag.rc{color:var(--amber);background:#F7EEDD}
+.tag.fe{color:#0E6E7A;background:#E3F4F6}
+.item .tx{flex:1;font-size:13px;line-height:1.5}
+.item .tx b{color:var(--ink)}
+.amalfi{margin:11px 0 2px;border-radius:14px;overflow:hidden;border:1px solid #DCE9EF;background:linear-gradient(135deg,#EAF6F8,#F4FBFC)}
+.amalfi .ah{display:flex;align-items:center;gap:8px;padding:9px 11px;background:rgba(27,154,170,.13)}
+.amalfi .ah b{font:800 11.5px system-ui;color:#0E5561;letter-spacing:.02em}
+.amalfi .ab{padding:5px 11px 11px}
+.amalfi .item{border-top-color:#DCEAEE}
+.mini{display:flex;align-items:center;gap:8px;margin-top:10px;padding:8px 10px;border:1px dashed var(--sea);border-radius:10px;background:#F1F7FA}
+.mini svg{flex:0 0 auto;color:var(--sea)}
+.mini span{font:600 11.5px system-ui;color:var(--ink)}
+.mini em{font-style:normal;color:var(--muted);font-weight:400}
+
+/* pending */
+.todo{list-style:none;margin:0;padding:0}
+.todo li{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.45}
+.todo .bx{flex:0 0 20px;height:20px;border:2px solid var(--gold2);border-radius:6px;margin-top:1px}
+.todo b{color:var(--ink)} .todo small{color:var(--muted)}
+
+/* footer */
+footer{margin:34px 0 44px}
+footer .fbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 15px 17px;box-shadow:var(--shadow)}
+footer .tri{width:70px;margin-bottom:10px}
+footer h2{font-size:16px;margin-bottom:8px}
+footer p.intro{font-size:12px;color:var(--text);margin:0 0 10px}
+footer .conv{font-size:11px;color:var(--muted);font-style:italic;margin:0 0 8px}
+footer .ver{font-size:11px;color:var(--muted);margin:3px 0}
+.bye{margin-top:18px;text-align:center;font-style:italic;color:var(--sea);font-size:18px}
+.bye::before,.bye::after{content:"·";margin:0 8px;color:var(--gold)}
+
+/* countdown */
+.count{margin-top:14px;display:flex;align-items:center;gap:13px;background:linear-gradient(135deg,rgba(217,154,69,.24),rgba(255,255,255,.06));border:1px solid rgba(244,214,166,.42);border-radius:14px;padding:12px 14px}
+.count .ico{flex:0 0 auto;color:#F4D6A6}
+.count .big{font:800 34px "Palatino Linotype",Georgia,serif;color:#fff;line-height:1;letter-spacing:.5px}
+.count .cd-h{font:600 13px system-ui;color:#EBDABE;margin-left:4px}
+.count .lbl{font:600 12px system-ui;color:#F4D6A6;margin-top:2px}
+.count .lbl b{color:#fff}
+html.nojs .count .cd-count{display:none}
+html.nojs .count .js-only{display:none}
+
+/* dedication */
+.dedic{margin:26px 0 52px;text-align:center;padding:0 10px}
+.dedic .orn{color:var(--gold);font-size:22px;letter-spacing:8px;line-height:1}
+.dedic .dtri{height:4px;width:60px;border-radius:4px;margin:12px auto;background:linear-gradient(90deg,var(--tri-g) 0 33.3%,#fff 33.3% 66.6%,var(--tri-r) 66.6% 100%)}
+.dedic .to{display:block;font:700 12px system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--terra);margin-bottom:8px}
+.dedic p{font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-style:italic;font-size:17.5px;line-height:1.55;color:var(--ink);margin:0 auto;max-width:26em}
+
+/* day-by-day */
+.days{margin:11px 0 2px;border:1px solid var(--line);border-radius:12px;background:#FCFAF4;overflow:hidden}
+.days>summary{list-style:none;cursor:pointer;padding:10px 12px;display:flex;align-items:center;gap:8px;font:800 12px system-ui;letter-spacing:.03em;color:var(--ink)}
+.days>summary::-webkit-details-marker{display:none}
+.days>summary .ci{color:var(--gold2)}
+.days .chev{margin-left:auto;transition:transform .2s;color:var(--sea)}
+.days[open] .chev{transform:rotate(180deg)}
+.days .db{padding:0 12px 12px}
+.day{display:flex;gap:9px;padding:8px 0;border-top:1px dashed var(--line)}
+.day:first-child{border-top:0}
+.day .dn{flex:0 0 52px;font:800 11px system-ui;color:var(--sea)}
+.day .dtx{flex:1;font-size:12.5px;line-height:1.5}
+.day .dtx b{color:var(--ink)}
+.dbadge{display:inline-block;font:800 8.5px system-ui;letter-spacing:.04em;border-radius:5px;padding:1px 5px;margin-right:5px;vertical-align:1px}
+.dbadge.res{color:var(--green);background:#E7F3EB}
+.dbadge.sug{color:var(--plum);background:#EFEAF7}
+.dbadge.ruta{color:var(--muted);background:#EDE6D6}
+
+@media (prefers-reduced-motion:no-preference){
+  html.js .rv{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+  html.js .rv.in{opacity:1;transform:none}
+}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+</style>
+</head>
+<body>
+
+<div class="bar"><div class="wrap"><span class="dot"></span><b>Italia en coche · 2026</b><span>10–23 sep 2026</span></div></div>
+
+<header class="hero">
+  <div class="glow"></div>
+  <div class="wrap">
+    <p class="eyebrow">Road trip · 10–23 septiembre 2026</p>
+    <h1>Italia<em>en coche</em></h1>
+    <div class="tri"></div>
+
+    <div class="map rv">
+      <div class="cap"><span class="dot" style="width:8px;height:8px;border-radius:50%;background:var(--gold);display:inline-block"></span><b>La ruta</b><small>toca un número para ir a la parada</small></div>
+      <svg viewBox="0 0 360 270" role="img" aria-label="Mapa de la ruta con las paradas numeradas">
+        <defs>
+          <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#DCEBF0"/><stop offset="1" stop-color="#F2E8D5"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="360" height="270" fill="url(#sea)"/>
+        <g fill="#9FC0CE" opacity="0.28">
+          <circle cx="305" cy="120" r="1.6"/><circle cx="322" cy="142" r="1.4"/><circle cx="298" cy="100" r="1.4"/>
+          <circle cx="300" cy="184" r="1.4"/><circle cx="285" cy="204" r="1.4"/>
+          <circle cx="150" cy="252" r="1.6"/><circle cx="184" cy="258" r="1.4"/><circle cx="120" cy="248" r="1.4"/>
+        </g>
+        <g transform="translate(335,72)" opacity="0.5">
+          <circle r="14" fill="none" stroke="#9a7b45" stroke-width="1"/>
+          <path d="M0,-12 L4,0 L0,12 L-4,0 Z" fill="#B4432E"/>
+          <text x="0" y="-16" text-anchor="middle" font-size="8" fill="#7a6a52" font-family="system-ui">N</text>
+        </g>
+        <!-- home connectors (dotted): outbound Luey->1 (high) and return 7->Luey (low) -->
+        <path d="M26,158 Q64,136 106,132" fill="none" stroke="#B9A98A" stroke-width="2" stroke-dasharray="2 5" stroke-linecap="round"/>
+        <path d="M66,178 Q40,172 26,158" fill="none" stroke="#B9A98A" stroke-width="2" stroke-dasharray="2 5" stroke-linecap="round"/>
+        <!-- driving route 1..7 -->
+        <path d="M106,132 L178,138 L214,208 L240,164 L262,84 L144,116 L66,178" fill="none" stroke="#C4842C" stroke-width="3" stroke-dasharray="7 6" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- Luey house -->
+        <g transform="translate(26,158)">
+          <path d="M-6,2 L0,-5 L6,2 M-4,1 L-4,7 L4,7 L4,1" fill="none" stroke="#5a6b52" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+          <text class="pin-lb w" x="0" y="18" text-anchor="middle">Luey</text>
+        </g>
+        <!-- Amalfi sub-pin -->
+        <g transform="translate(224,230)">
+          <circle r="4.5" fill="#1B9AAA" stroke="#fff" stroke-width="1.5"/>
+          <text class="pin-lb" x="0" y="15" text-anchor="middle" fill="#0E6E7A">Amalfi</text>
+        </g>
+        <g>
+          <a href="#stop-1"><circle cx="106" cy="132" r="11" fill="#1E6091" stroke="#fff" stroke-width="2"/><text class="pin-num" x="106" y="136" text-anchor="middle">1</text><text class="pin-lb w" x="106" y="153" text-anchor="middle">St-Raphaël</text></a>
+          <a href="#stop-2"><circle cx="178" cy="138" r="12" fill="#B4432E" stroke="#fff" stroke-width="2"/><text class="pin-num" x="178" y="142" text-anchor="middle">2</text><text class="pin-lb" x="178" y="122" text-anchor="middle">Toscana</text></a>
+          <a href="#stop-3"><circle cx="214" cy="208" r="12" fill="#B4432E" stroke="#fff" stroke-width="2"/><text class="pin-num" x="214" y="212" text-anchor="middle">3</text><text class="pin-lb" x="200" y="211" text-anchor="end">Campania</text></a>
+          <a href="#stop-4"><circle cx="240" cy="164" r="11" fill="#1E6091" stroke="#fff" stroke-width="2"/><text class="pin-num" x="240" y="168" text-anchor="middle">4</text><text class="pin-lb" x="254" y="165" text-anchor="start">Vasto</text></a>
+          <a href="#stop-5"><circle cx="262" cy="84" r="11" fill="#1E6091" stroke="#fff" stroke-width="2"/><text class="pin-num" x="262" y="88" text-anchor="middle">5</text><text class="pin-lb" x="262" y="63" text-anchor="middle">Chioggia</text></a>
+          <a href="#stop-6"><circle cx="144" cy="116" r="11" fill="#1E6091" stroke="#fff" stroke-width="2"/><text class="pin-num" x="144" y="120" text-anchor="middle">6</text><text class="pin-lb" x="144" y="100" text-anchor="middle">San Remo</text></a>
+          <a href="#stop-7"><circle cx="66" cy="178" r="11" fill="#1E6091" stroke="#fff" stroke-width="2"/><text class="pin-num" x="66" y="182" text-anchor="middle">7</text><text class="pin-lb w" x="66" y="200" text-anchor="middle">Carcasona</text></a>
+        </g>
+      </svg>
+      <div class="hint">Círculos rojos = bases de varias noches · azules = etapas de 1–2 noches</div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>14</b><small>días</small></div>
+      <div class="stat"><b>~5.000</b><small>km</small></div>
+      <div class="stat"><b>7</b><small>bases</small></div>
+      <div class="stat"><b>13</b><small>noches</small></div>
+      <div class="stat"><b>1.155 €</b><small>alojam.</small></div>
+    </div>
+
+    <div class="count rv" aria-live="polite">
+      <span class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h12M6 22h12M7 2c0 5 4 6 5 8M17 2c0 5-4 6-5 8M7 22c0-5 4-6 5-8M17 22c0-5-4-6-5-8"/></svg></span>
+      <div>
+        <div class="cd-count"><span class="big" id="cd-days">—</span><span class="cd-h" id="cd-h"></span></div>
+        <div class="lbl" id="cd-lbl"><span class="js-only">para el viaje · </span>salida el <b>10 de septiembre de 2026</b></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- APPOINTMENTS -->
+  <section>
+    <div class="sec-head rv">
+      <div class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4V8z"/><path d="M14 6v12"/></svg></div>
+      <div><h2>Horas reservadas</h2><p>Citas fijas con día y hora · llévalas en el móvil + DNI</p></div>
+    </div>
+    <div class="apts">
+      <div class="apt rv"><div class="stub"><span class="day">13</span><span class="mon">SEP</span><span class="hr">11:00</span></div><div class="body"><h3>Galleria dell'Accademia — el David</h3><div class="loc">Florencia · Via Ricasoli 58/60 · 2 pax · Intero</div><span class="ref">Nº 23391884</span></div></div>
+      <div class="apt rv"><div class="stub"><span class="day">13</span><span class="mon">SEP</span><span class="hr">16:00</span></div><div class="body"><h3>Free tour por Florencia <small>(ES)</small></h3><div class="loc">Piazza San Lorenzo · 2 pax · guía con paraguas verde · 15 min antes</div><span class="ref">A39810738</span></div></div>
+      <div class="apt rv"><div class="stub"><span class="day">16</span><span class="mon">SEP</span><span class="hr">11:00</span></div><div class="body"><h3>Pompeya + Villa de los Misterios <small>(ES)</small></h3><div class="loc">Porta Marina Superiore · 2 pax · 10 min antes</div><span class="ref">A39811758</span></div></div>
+      <div class="apt rv"><div class="stub"><span class="day">18</span><span class="mon">SEP</span><span class="hr">09:30</span></div><div class="body"><h3>Free tour por Nápoles <small>(ES)</small></h3><div class="loc">Piazza del Plebiscito (bar Gambrinus) · 2 pax · 10 min antes · termina en Piazza del Gesù</div><span class="ref">A39816632</span></div></div>
+      <div class="apt rv"><div class="stub"><span class="day">18</span><span class="mon">SEP</span><span class="hr">14:00</span></div><div class="body"><h3>Napoli Sotterranea <small>(IT)</small></h3><div class="loc">Piazza San Gaetano 69 · 15 min antes · 16 °C, ropa de abrigo</div><span class="ref">#286987</span></div></div>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section>
+    <div class="sec-head rv">
+      <div class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.7-6-10a6 6 0 0 1 12 0c0 4.3-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg></div>
+      <div><h2>El viaje, parada a parada</h2><p>Bases, trayectos y paradas de camino</p></div>
+    </div>
+    <div class="legend rv">
+      <span><i style="background:var(--plum)"></i>Previsto</span>
+      <span><i style="background:var(--green)"></i>Coincide</span>
+      <span><i style="background:var(--sea)"></i>Abierto</span>
+      <span><i style="background:var(--amber)"></i>Reconfirmar</span>
+      <span><i style="background:var(--sienna)"></i>De camino</span>
+    </div>
+
+    <ol class="spine">
+
+      <li class="leg start rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h13l-3-3m3 3l-3 3"/><path d="M20 5v14"/></svg> Salida desde Luey · ~1.100 km · 10–11 h</span></div></li>
+
+      <!-- STOP 1 -->
+      <li class="stop rv" id="stop-1"><div class="card"><div class="top">
+        <span class="rico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.2"/><path d="M12 1.5v1.6M12 12.9v1.6M4.8 8h1.6M17.6 8h1.6M6.9 2.9l1.1 1.1M16 12l1.1 1.1M6.9 13.1l1.1-1.1M16 4l1.1-1.1"/><path d="M2 20c2 0 2-1.6 4-1.6s2 1.6 4 1.6 2-1.6 4-1.6 2 1.6 4 1.6 2-1.6 4-1.6"/></svg></span>
+        <div class="kick"><span class="num">01</span><span class="dates">10–11 SEP · 1 noche</span></div>
+        <h3>Saint-Raphaël</h3><div class="region">Costa Azul · Francia</div>
+        <div class="lodge"><svg class="bi" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 14h18M6 10V8a2 2 0 0 1 2-2h3v4"/></svg><div class="ln"><b>Hôtel Le Virevent</b><small>Cancelación gratuita</small></div><div class="pr"><b>129,42 €</b><br><span class="pill free">Gratis</span></div></div>
+      </div><div class="content">
+        <div class="item"><span class="tag pr">PREVISTO</span><div class="tx">Corniche d'Or al atardecer, kayak en el Cap Dramont, la Fréjus romana y el mercado provenzal.</div></div>
+        <div class="item"><span class="tag co">COINCIDE</span><div class="tx"><b>Mercado nocturno del Veillat</b> (paseo marítimo, 19–01 h), hasta el 13 sep.</div></div>
+        <div class="item"><span class="tag ab">ABIERTO</span><div class="tx">Exposición «Fantômas» (Museo Louis de Funès).</div></div>
+      </div></div></li>
+
+      <!-- LEG 1->2 -->
+      <li class="leg rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l1.4-4.2A2 2 0 0 1 8.3 7.5h7.4a2 2 0 0 1 1.9 1.3L19 13"/><rect x="3.5" y="13" width="17" height="4.2" rx="1"/><circle cx="7.5" cy="17.5" r="1.4"/><circle cx="16.5" cy="17.5" r="1.4"/></svg> ~640 km · 6–7 h</span></div>
+        <div class="wps"><div class="t"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.7-6-10a6 6 0 0 1 12 0c0 4.3-6 10-6 10z"/></svg> De camino · aproximación a Toscana</div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-6h6v6"/></svg></span><div class="tx"><b>Finalborgo</b><span class="badge plan">YA PREVISTO</span> · pueblo medieval de la Liguria interior.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16M6 21V8l6-4 6 4v13M10 21v-4h4v4"/></svg></span><div class="tx"><b>Monteriggioni</b><span class="badge new">NUEVO</span> · pueblo amurallado circular sobre la vía a Siena.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V7l3-2 3 2 3-2 3 2 3-2v16M4 21h16"/></svg></span><div class="tx"><b>San Gimignano</b><span class="badge new">NUEVO</span> · la «Manhattan medieval» de las torres (UNESCO).</div></div>
+        </div></li>
+
+      <!-- STOP 2 -->
+      <li class="stop rv" id="stop-2"><div class="card"><div class="top">
+        <span class="rico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22c0-5 1-9 1-9M18 22c0-5-1-9-1-9M7 13c-2 0-3-2-3-4s2-3 3-5c1 2 3 3 3 5s-1 4-3 4zM17 13c2 0 3-2 3-4s-2-3-3-5c-1 2-3 3-3 5s1 4 3 4z"/><path d="M3 22h18"/></svg></span>
+        <div class="kick"><span class="num">02</span><span class="dates">11–15 SEP · 4 noches</span></div>
+        <h3>Val d'Orcia</h3><div class="region">Toscana · núcleo del viaje</div>
+        <div class="lodge"><svg class="bi" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 14h18M6 10V8a2 2 0 0 1 2-2h3v4"/></svg><div class="ln"><b>Agriturismo Capannacce</b><small>Bagno Vignoni · cancelación gratuita</small></div><div class="pr"><b>390 €</b><br><span class="pill free">Gratis</span></div></div>
+      </div><div class="content">
+        <div class="item"><span class="tag pr">PREVISTO</span><div class="tx">Pienza, San Quirico (Horti Leonini), Montalcino, Sant'Antimo; Montepulciano, Siena, Monte Oliveto y las termas de Bagno San Filippo. Florencia (<b>Accademia y free tour reservados</b>). Orvieto de camino.</div></div>
+        <div class="item"><span class="tag co">COINCIDE</span><div class="tx"><b>Artigianato e Palazzo</b> (11–13, Florencia) · <b>Mercatino della Vendemmia</b> (San Quirico, prob. sáb 12) · <b>Festa della Madonna di Vitaleta</b>.</div></div>
+        <div class="mini"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1.5a1.5 1.5 0 0 0 0 3V15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1.5a1.5 1.5 0 0 0 0-3z"/></svg><span>Reservas <em>· Dom 13 · 11:00 Accademia · 16:00 Free tour</em></span></div><details class="days"><summary><svg class="ci" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg> Plan día a día <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary><div class="db"><div class="day"><span class="dn">Vie 11</span><div class="dtx"><span class="dbadge ruta">LLEGADA</span>Tras el largo trayecto desde Saint-Raphaël (6–7 h), llegada a Bagno Vignoni al atardecer. Paseo por la Piazza delle Sorgenti (piscina termal en el centro del pueblo) y cena tranquila.</div></div><div class="day"><span class="dn">Sáb 12</span><div class="dtx"><span class="dbadge sug">SUGERIDO</span><b>Val d'Orcia sur.</b> Mañana en San Quirico d'Orcia (Horti Leonini) y los cipreses icónicos; si cae, el Mercatino della Vendemmia. Tarde: Montalcino (cata de Brunello) y la Abadía de Sant'Antimo. Opción: termas gratuitas de Bagno San Filippo.</div></div><div class="day"><span class="dn">Dom 13</span><div class="dtx"><span class="dbadge res">RESERVADO</span><b>Florencia.</b> A ~1 h 30. 11:00 Accademia (el David); comida y centro histórico (Duomo, Ponte Vecchio); 16:00 free tour desde Piazza San Lorenzo. Cena y regreso.</div></div><div class="day"><span class="dn">Lun 14</span><div class="dtx"><span class="dbadge sug">SUGERIDO</span><b>Pienza y Montepulciano.</b> Pienza (Pecorino y vistas al valle) y Montepulciano (Vino Nobile). Tarde relajada. Alternativa: Siena + Abadía de Monte Oliveto Maggiore.</div></div><div class="day"><span class="dn">Mar 15</span><div class="dtx"><span class="dbadge ruta">EN RUTA</span><b>Salida a Campania vía Orvieto.</b> Check-out y A1 sur; parada en Orvieto (Duomo y subsuelo) antes de seguir a Pompeya.</div></div></div></details>
+      </div></div></li>
+
+      <!-- LEG 2->3 -->
+      <li class="leg rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l1.4-4.2A2 2 0 0 1 8.3 7.5h7.4a2 2 0 0 1 1.9 1.3L19 13"/><rect x="3.5" y="13" width="17" height="4.2" rx="1"/><circle cx="7.5" cy="17.5" r="1.4"/><circle cx="16.5" cy="17.5" r="1.4"/></svg> ~390 km · 4 h · A1 sur</span></div>
+        <div class="wps"><div class="t"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.7-6-10a6 6 0 0 1 12 0c0 4.3-6 10-6 10z"/></svg> De camino · el tramo con más joyas</div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V8l8-5 8 5v13M9 21v-5h6v5"/></svg></span><div class="tx"><b>Orvieto</b><span class="badge plan">YA PREVISTO</span> · catedral gótica y subsuelo etrusco, sobre la A1.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M6 20v-7l6-4 6 4v7M2 13l10-7 10 7"/></svg></span><div class="tx"><b>Civita di Bagnoregio</b><span class="badge new">NUEVO</span> · «la ciudad que muere», sobre una peña con pasarela (~30–40 min de la A1).</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V10l8-5 8 5v11M4 21h16M12 5V2M10 21v-5a2 2 0 0 1 4 0v5"/></svg></span><div class="tx"><b>Abadía de Montecassino</b><span class="badge new">NUEVO</span> · abadía benedictina sobre Cassino, ~20 min de la A1.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l4-2 4 2 4-2 4 2v12M3 21h18M8 21v-4M16 21v-4"/></svg></span><div class="tx"><b>Reggia di Caserta</b><span class="badge new">NUEVO</span> · el «Versalles italiano» (UNESCO), junto a la autopista antes de Nápoles.</div></div>
+        </div></li>
+
+      <!-- STOP 3 -->
+      <li class="stop hub rv" id="stop-3"><div class="card"><div class="top">
+        <span class="rico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20L15 7l-2 3-2-4-7 14z"/><path d="M9 9l2-2M13 5l1-2"/></svg></span>
+        <div class="kick"><span class="num">03</span><span class="dates">15–18 SEP · 3 noches</span></div>
+        <h3>Pompeya y Nápoles</h3><div class="region">Campania</div>
+        <div class="lodge"><svg class="bi" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 14h18M6 10V8a2 2 0 0 1 2-2h3v4"/></svg><div class="ln"><b>Casa Cantoniera Guest House</b><small>Pompeya · cancelación gratuita</small></div><div class="pr"><b>198 €</b><br><span class="pill free">Gratis</span></div></div>
+      </div><div class="content">
+        <div class="item"><span class="tag pr">PREVISTO</span><div class="tx">Pompeya (tour + Villa de los Misterios); Nápoles día 18 (free tour, Spaccanapoli, pizza, San Gregorio Armeno); Vesubio, Herculano, Sorrento–Capri.</div></div>
+        <div class="item"><span class="tag co">COINCIDE</span><div class="tx"><b>Vigilia de San Gennaro</b> (18) · <b>Fiestas de Piedigrotta</b> (1–21).</div></div>
+        <div class="amalfi"><div class="ah"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1B9AAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2"/><path d="M2 17c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2"/></svg><b>JUE 17 · COSTA AMALFITANA (día completo)</b></div><div class="ab">
+          <div class="item"><span class="tag fe">FERRY</span><div class="tx">Salerno → Positano → Amalfi → (Ravello) → Salerno con Travelmar.</div></div>
+          <div class="item"><span class="tag ab">ABIERTO</span><div class="tx">Villa Rufolo y Villa Cimbrone (Ravello); Duomo de Amalfi.</div></div>
+          <div class="item"><span class="tag rc">RECONFIRMAR</span><div class="tx">Horario de Travelmar del 17 (frecuencias reducidas a final de temporada).</div></div>
+        </div></div>
+        <div class="mini"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1.5a1.5 1.5 0 0 0 0 3V15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1.5a1.5 1.5 0 0 0 0-3z"/></svg><span>Reservas <em>· Mié 16 · 11:00 Pompeya · Vie 18 · 09:30 Free tour + 14:00 Sotterranea</em></span></div><details class="days"><summary><svg class="ci" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg> Plan día a día <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary><div class="db"><div class="day"><span class="dn">Mar 15</span><div class="dtx"><span class="dbadge ruta">LLEGADA</span>Llegada a Pompeya al atardecer desde la Toscana (con la parada en Orvieto). Cena y descanso.</div></div><div class="day"><span class="dn">Mié 16</span><div class="dtx"><span class="dbadge res">RESERVADO</span><b>Pompeya.</b> 11:00 visita guiada (Pompeya + Villa de los Misterios, español). Comida junto a Porta Marina. Tarde por libre en la Villa de los Misterios (Pompeii+ o suplemento 8 €).</div></div><div class="day"><span class="dn">Jue 17</span><div class="dtx"><span class="dbadge sug">SUGERIDO</span><b>Costa Amalfitana (día completo).</b> Coche a Salerno (~30 min) y ferry Travelmar: Positano → Amalfi → (subida a Ravello) → Salerno. Regreso al atardecer.</div></div><div class="day"><span class="dn">Vie 18</span><div class="dtx"><span class="dbadge res">RESERVADO</span><b>Nápoles y salida a Vasto.</b> 09:30 free tour desde Piazza del Plebiscito, Spaccanapoli y pizza, 14:00 Napoli Sotterranea, San Gregorio Armeno; por la tarde, carretera a Vasto (~3,5 h).</div></div></div></details>
+      </div></div></li>
+
+      <!-- LEG 3->4 -->
+      <li class="leg rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l1.4-4.2A2 2 0 0 1 8.3 7.5h7.4a2 2 0 0 1 1.9 1.3L19 13"/><rect x="3.5" y="13" width="17" height="4.2" rx="1"/><circle cx="7.5" cy="17.5" r="1.4"/><circle cx="16.5" cy="17.5" r="1.4"/></svg> ~310 km · 3,5 h · cruce de Molise</span></div>
+        <div class="wps"><div class="t"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.7-6-10a6 6 0 0 1 12 0c0 4.3-6 10-6 10z"/></svg> De camino · el tramo más sobrio</div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M6 20v-8h12v8M9 12V8h6v4M11 8V5h2v3"/></svg></span><div class="tx"><b>Lanciano / Chieti</b><span class="badge plan">YA PREVISTO</span> · parada gastronómica e histórica en Abruzzo.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l5-3 5 3 5-3 3 2v13M3 21h18M8 21v-5h4v5"/></svg></span><div class="tx"><b>Termoli</b><span class="badge plan">YA PREVISTO</span> · borgo marinero amurallado (verificar estado de la A14).</div></div>
+        </div></li>
+
+      <!-- STOP 4 -->
+      <li class="stop rv" id="stop-4"><div class="card"><div class="top">
+        <span class="rico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c4-5 10-5 14 0-4 5-10 5-14 0z"/><path d="M17 12c2-1 3-2 4-4 0 3 0 5-4 4z" transform="translate(-.5,0)"/><circle cx="8" cy="11.5" r="1"/><path d="M17 12l4-2M17 12l4 2"/></svg></span>
+        <div class="kick"><span class="num">04</span><span class="dates">18–19 SEP · 1 noche</span></div>
+        <h3>Vasto</h3><div class="region">Costa Adriática · Abruzzo · tránsito</div>
+        <div class="lodge"><svg class="bi" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 14h18M6 10V8a2 2 0 0 1 2-2h3v4"/></svg><div class="ln"><b>B&amp;B Residenza Aragonese</b><small>Cancelación gratuita</small></div><div class="pr"><b>73,20 €</b><br><span class="pill free">Gratis</span></div></div>
+      </div><div class="content">
+        <div class="item"><span class="tag pr">PREVISTO</span><div class="tx">Casco histórico alto (Castello Caldoresco, Palazzo d'Avalos) y la Riserva di Punta Aderci. Noche tranquila.</div></div>
+      </div></div></li>
+
+      <!-- LEG 4->5 -->
+      <li class="leg rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l1.4-4.2A2 2 0 0 1 8.3 7.5h7.4a2 2 0 0 1 1.9 1.3L19 13"/><rect x="3.5" y="13" width="17" height="4.2" rx="1"/><circle cx="7.5" cy="17.5" r="1.4"/><circle cx="16.5" cy="17.5" r="1.4"/></svg> ~470 km · 5 h · A14 norte</span></div>
+        <div class="wps"><div class="t"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.7-6-10a6 6 0 0 1 12 0c0 4.3-6 10-6 10z"/></svg> De camino · la costa adriática</div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h18M5 16v-3h14v3M8 13V9M16 13V9M6 9h12l-2-3H8z"/></svg></span><div class="tx"><b>Costa dei Trabocchi</b><span class="badge plan">YA PREVISTO</span> · los palafitos-pesqueros al norte de Vasto.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V11l8-6 8 6v10M4 21h16M10 21v-6h4v6M12 5V2"/></svg></span><div class="tx"><b>Loreto</b><span class="badge new">NUEVO</span> · Basílica della Santa Casa, a ~10 min de la A14.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M6 20V8h12v12M9 20v-6h6v6M4 8l8-5 8 5"/></svg></span><div class="tx"><b>Rávena</b><span class="badge plan">YA PREVISTO</span> · mosaicos bizantinos (UNESCO), desvío corto.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18c3 0 4-3 7-3s4 3 7 3 4-3 6-3M4 12l4-6 4 6M8 6V4"/></svg></span><div class="tx"><b>Sirolo / Cónero</b> · <b>Comacchio</b><span class="badge plan">YA PREVISTO</span> · acantilados turquesa y la «pequeña Venecia» del Po.</div></div>
+        </div></li>
+
+      <!-- STOP 5 -->
+      <li class="stop rv" id="stop-5"><div class="card"><div class="top">
+        <span class="rico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18c2 0 2-1.5 4-1.5S8 18 10 18s2-1.5 4-1.5S16 18 18 18s2-1.5 4-1.5"/><path d="M4 16l2-9 12 3-2 6M6 7l-1-3"/></svg></span>
+        <div class="kick"><span class="num">05</span><span class="dates">19–21 SEP · 2 noches</span></div>
+        <h3>Chioggia y Venecia</h3><div class="region">Véneto · laguna</div>
+        <div class="lodge"><svg class="bi" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 14h18M6 10V8a2 2 0 0 1 2-2h3v4"/></svg><div class="ln"><b>Hotel Grande Italia</b><small>Chioggia · no reembolsable</small></div><div class="pr"><b>228,43 €</b><br><span class="pill nr">No reemb.</span></div></div>
+      </div><div class="content">
+        <div class="item"><span class="tag pr">PREVISTO</span><div class="tx">Venecia en vaporetto, Murano y Burano, y el mercado de pescado de Chioggia; posible Comacchio y flamencos de las Valli.</div></div>
+        <div class="item"><span class="tag co">COINCIDE</span><div class="tx"><b>Venice Glass Week</b> (12–20, Murano) · <b>Homo Faber</b> (1–30) · <b>Biennale Arte</b>.</div></div><details class="days"><summary><svg class="ci" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg> Plan día a día <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary><div class="db"><div class="day"><span class="dn">Vie 19</span><div class="dtx"><span class="dbadge ruta">LLEGADA</span>Llegada al atardecer desde Vasto (~5 h). Aperitivo-spritz en el Corso del Popolo (junto al canal Vena) y cena de pescado del Adriático.</div></div><div class="day"><span class="dn">Sáb 20</span><div class="dtx"><span class="dbadge sug">SUGERIDO</span><b>Venecia y Murano.</b> Día completo en vaporetto desde la Piazzetta Vigo: San Marco, Rialto y paseo. Murano coincide con el último día de la Venice Glass Week (12–20 sep); posible salto a Burano. Regreso en barco al anochecer.</div></div><div class="day"><span class="dn">Dom 21</span><div class="dtx"><span class="dbadge ruta">EN RUTA</span><b>Salida a San Remo (de camino).</b> Check-out y paseo matinal por Chioggia; trayecto (~5 h) con parada en Ferrara o la Certosa di Pavia.</div></div></div></details>
+      </div></div></li>
+
+      <!-- LEG 5->6 -->
+      <li class="leg rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l1.4-4.2A2 2 0 0 1 8.3 7.5h7.4a2 2 0 0 1 1.9 1.3L19 13"/><rect x="3.5" y="13" width="17" height="4.2" rx="1"/><circle cx="7.5" cy="17.5" r="1.4"/><circle cx="16.5" cy="17.5" r="1.4"/></svg> ~490 km · 5 h · llanura del Po → Liguria</span></div>
+        <div class="wps"><div class="t"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.7-6-10a6 6 0 0 1 12 0c0 4.3-6 10-6 10z"/></svg> De camino · según ruta</div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V6l8-3 8 3v15M4 21h16M9 21v-5h6v5M8 10h.01M12 10h.01M16 10h.01"/></svg></span><div class="tx"><b>Ferrara</b><span class="badge new">NUEVO</span> · ciudad renacentista (UNESCO): Castello Estense y Palazzo dei Diamanti.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V8l8-5 8 5v13M4 21h16M10 21v-6h4v6M12 3V1M8 11h.01M16 11h.01"/></svg></span><div class="tx"><b>Certosa di Pavia</b><span class="badge new">NUEVO</span> · cartuja gótico-renacentista, obra maestra, a ~15 min de la A7.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20v-9l7-5 7 5v9M9 20v-5h6v5"/></svg></span><div class="tx"><b>Génova</b><span class="badge plan">YA PREVISTO</span> · caruggi medievales y pesto.</div></div>
+          <div class="wp"><span class="mk"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V7l4-2 4 2 4-2 4 2v14M4 21h16M9 21v-4h6v4"/></svg></span><div class="tx"><b>Albenga</b> · <b>Cervo</b><span class="badge new">NUEVO</span> · la romana «de las cien torres» y un borgo pastel sobre el mar.</div></div>
+        </div></li>
+
+      <!-- STOP 6 -->
+      <li class="stop rv" id="stop-6"><div class="card"><div class="top">
+        <span class="rico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="3"/><path d="M12 9v11M12 9c0-2 1.5-3 3-3M12 9c0-2-1.5-3-3-3M9 20h6"/><circle cx="15" cy="6" r="1.3"/><circle cx="9" cy="6" r="1.3"/></svg></span>
+        <div class="kick"><span class="num">06</span><span class="dates">21–22 SEP · 1 noche</span></div>
+        <h3>San Remo</h3><div class="region">Liguria · Riviera dei Fiori</div>
+        <div class="lodge"><svg class="bi" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 14h18M6 10V8a2 2 0 0 1 2-2h3v4"/></svg><div class="ln"><b>Le Camere di Nanà</b><small>Cancelación gratuita</small></div><div class="pr"><b>76 €</b><br><span class="pill free">Gratis</span></div></div>
+      </div><div class="content">
+        <div class="item"><span class="tag pr">PREVISTO</span><div class="tx">La Pigna, el Casino y Villa Ormond; excursiones a Dolceacqua (el puente de Monet) y Menton al cruzar a Francia.</div></div>
+      </div></div></li>
+
+      <!-- LEG 6->7 -->
+      <li class="leg rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l1.4-4.2A2 2 0 0 1 8.3 7.5h7.4a2 2 0 0 1 1.9 1.3L19 13"/><rect x="3.5" y="13" width="17" height="4.2" rx="1"/><circle cx="7.5" cy="17.5" r="1.4"/><circle cx="16.5" cy="17.5" r="1.4"/></svg> ~540 km · 5 h · salida de Italia</span></div></li>
+
+      <!-- STOP 7 -->
+      <li class="stop rv" id="stop-7"><div class="card"><div class="top">
+        <span class="rico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l3 1V7l3 1V6l3 1V6l3-1v3l3-1v3l3-1v12z"/><path d="M3 21h18M10 21v-4h4v4"/></svg></span>
+        <div class="kick"><span class="num">07</span><span class="dates">22–23 SEP · 1 noche</span></div>
+        <h3>Carcasona</h3><div class="region">Occitania · Francia</div>
+        <div class="lodge"><svg class="bi" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 14h18M6 10V8a2 2 0 0 1 2-2h3v4"/></svg><div class="ln"><b>Coté Pont Vieux</b><small>Cancelación gratuita</small></div><div class="pr"><b>60,50 €</b><br><span class="pill free">Gratis</span></div></div>
+      </div><div class="content">
+        <div class="item"><span class="tag pr">PREVISTO</span><div class="tx">La Cité amurallada, el Château Comtal y la Basílica de San Nazario. Llegad con tiempo para verla iluminada al anochecer.</div></div>
+        <div class="item"><span class="tag ab">ABIERTO</span><div class="tx">Exposiciones en la Bastide hasta octubre.</div></div>
+      </div></div></li>
+
+      <li class="leg end rv"><div class="drive"><span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9h14v-9"/><path d="M10 19v-5h4v5"/></svg> Regreso a Luey · ~750 km · 7 h</span></div></li>
+
+    </ol>
+  </section>
+
+  <!-- PENDING -->
+  <section>
+    <div class="sec-head rv">
+      <div class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+      <div><h2>Por confirmar este verano</h2><p>Fechas 2026 que aún hay que verificar</p></div>
+    </div>
+    <ul class="todo rv">
+      <li><span class="bx"></span><div><b>Mercatino della Vendemmia</b> (San Quirico) — fecha 2026, prob. sáb 12 · <small>visitsanquirico.it</small></div></li>
+      <li><span class="bx"></span><div><b>Festa della Madonna di Vitaleta</b> — fecha exacta de septiembre</div></li>
+      <li><span class="bx"></span><div><b>Sagre de la Val d'Orcia</b> 2026 · <small>bindozzino.com / visitvaldorcia.it</small></div></li>
+      <li><span class="bx"></span><div><b>Fiestas patronales de Nápoles / Piedigrotta</b> 2026 · <small>comune.napoli.it</small></div></li>
+      <li><span class="bx"></span><div><b>Regina di Miele</b> (Tornareccio) — por si adelanta al 18–19 sep</div></li>
+      <li><span class="bx"></span><div><b>Venice Glass Week</b> — programa detallado y reservas</div></li>
+      <li><span class="bx"></span><div><b>A14 en Molise</b> (frana di Petacciato) — reabrió en abril; comprobar que sigue OK</div></li>
+    </ul>
+  </section>
+
+  <footer class="rv">
+    <div class="bye serif">Buon viaggio</div>
+  </footer>
+
+  <div class="dedic rv">
+    <div class="orn">&#10087;</div>
+    <div class="dtri"></div>
+    <span class="to">Para Nuria</span>
+    <p>los ricitos más sexis que me han inspirado para hacer este plan.</p>
+  </div>
+
+</main>
+
+<script>
+(function(){
+  var els = [].slice.call(document.querySelectorAll('.rv'));
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function showAll(){ els.forEach(function(e){ e.classList.add('in'); }); }
+  if (reduce || !('IntersectionObserver' in window)) { showAll(); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {rootMargin:'0px 0px -6% 0px', threshold:0.05});
+  els.forEach(function(el){ io.observe(el); });
+  setTimeout(showAll, 3500);
+})();
+</script>
+<script>
+(function(){
+  var d=document.getElementById('cd-days'), h=document.getElementById('cd-h'), lbl=document.getElementById('cd-lbl');
+  if(!d) return;
+  var target=new Date(2026,8,10,8,0,0); // 10 sep 2026, 08:00 (salida)
+  function upd(){
+    var diff=target-new Date();
+    if(diff<=0){ d.textContent="¡Ya!"; if(h)h.textContent=""; if(lbl)lbl.innerHTML="el viaje ha comenzado · <b>Buon viaggio</b>"; return; }
+    var days=Math.floor(diff/86400000), hours=Math.floor((diff%86400000)/3600000);
+    d.textContent=days; if(h)h.textContent=" días y "+hours+" h";
+  }
+  upd(); setInterval(upd,60000);
+})();
+</script>
+</body>
+</html>
